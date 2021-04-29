@@ -37,6 +37,7 @@ nav:
                 - 'Working with local packages': 'engineering/javascript/npm/local-packages.md'
         - GIT:
             - 'Git QuickStart Cheat Guide': 'engineering/git/git-quickstart.md'
+            - 'Git Friend Finder!': 'engineering/git/friend-finder.md'
         - Misc:
             - 'Atom Editor: Backup Process': 'engineering/misc/atom.md'
             - 'The Joel Test': 'engineering/misc/joel.md'
