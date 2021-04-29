@@ -1,14 +1,25 @@
-site_name:   Developer Docs
+site_name:    Developer Docs
 theme:
-  name:      material
-  favicon:   img/favicon.ico
-  logo:      img/logo.png
+  name:       material
+  favicon:    img/favicon.ico
+  logo:       img/logo.png
+  icon:
+    repo:     fontawesome/brands/github
   features:
     - navigation.instant
     - navigation.tracking
     - navigation.indexes
   palette:
-    primary: light-blue
+    primary:  light-blue
+extra:
+  social:
+    - icon:   fontawesome/brands/github
+      link:   https://github.com/YenHub/developer-docs
+      name:   Developer Docs on GitHub
+extra:
+  generator:  false
+repo_url:     https://github.com/YenHub/developer-docs
+repo_name:    YenHub/developer-docs
 nav:
     - Home:   index.md
     - 'Linux Tips':
