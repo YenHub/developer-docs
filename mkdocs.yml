@@ -31,6 +31,7 @@ nav:
         - 'MySQL Bash Backup Script': 'linux-tips/bash-mysql-backup.md'
     - 'Misc':
         - 'Atom Editor: Backup Process': 'misc/atom.md'
+        - 'Virtual Box HD Management': 'misc/vbox.md'
 
 extra_css:
   - stylesheets/extra.css
