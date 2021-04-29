@@ -19,7 +19,6 @@ extra:
     - icon:   fontawesome/brands/linkedin
       link:   https://www.linkedin.com/in/iangilkes
       name:   Find me on LinkedIn
-  generator:  false
 
 repo_url:     https://github.com/YenHub/developer-docs
 repo_name:    YenHub/developer-docs
