@@ -1,4 +1,6 @@
 site_name:    Developer Docs
+repo_url:     https://github.com/YenHub/developer-docs
+repo_name:    YenHub/developer-docs
 
 theme:
   name:       material
@@ -21,11 +23,12 @@ extra:
       link:   https://www.linkedin.com/in/iangilkes
       name:   Find me on LinkedIn
 
-repo_url:     https://github.com/YenHub/developer-docs
-repo_name:    YenHub/developer-docs
+extra_css:
+  - stylesheets/extra.css
 
 nav:
     - Home:   index.md
+
     - 'Software Engineering':
         - JavaScript:
             - 'Snippets & Tools':
@@ -35,22 +38,24 @@ nav:
         - Misc:
             - 'Atom Editor: Backup Process': 'engineering/misc/atom.md'
             - 'The Joel Test': 'engineering/misc/joel.md'
+
     - DevOps:
         - 'Linux Tips':
             - 'General Tips': 'devops/linux-tips/general-tips.md'
             - 'User Management': 'devops/linux-tips/user-management.md'
             - "Let's Encrypt": 'devops/linux-tips/lets-encrypt.md'
+            - 'TomCat QuickStart': 'devops/linux-tips/tomcat.md'
+
         - 'Databases':
             - MySQL:
                 - 'MySQL Bash Backup Script': 'devops/databases/bash-mysql-backup.md'
             - PostgreSQL:
                 - 'PostgreSQL Quick Start': 'devops/databases/postgres.md'
+
         - 'Misc':
             - 'Virtual Box HD Management': 'misc/vbox.md'
             - 'Redis Quick Start': 'devops/misc/redis.md'
+
     - SysAdmin:
         - Windows:
             - 'Vmmem High Memory Usage': 'sysadmin/windows/vmmem.md'
-
-extra_css:
-  - stylesheets/extra.css
