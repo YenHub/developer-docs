@@ -53,7 +53,7 @@ nav:
                 - 'PostgreSQL Quick Start': 'devops/databases/postgres.md'
 
         - 'Misc':
-            - 'Virtual Box HD Management': 'misc/vbox.md'
+            - 'Virtual Box HD Management': 'devops/misc/vbox.md'
             - 'Redis Quick Start': 'devops/misc/redis.md'
 
     - SysAdmin:
