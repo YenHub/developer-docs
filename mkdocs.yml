@@ -10,6 +10,7 @@ theme:
     - navigation.instant
     - navigation.tracking
     - navigation.indexes
+    - navigation.top
   palette:
     primary:  light-blue
 
@@ -30,3 +31,6 @@ nav:
         - 'User Management': 'linux-tips/user-management.md'
     - 'Misc':
         - 'Atom Editor: Backup Process': 'misc/atom.md'
+
+extra_css:
+  - stylesheets/extra.css

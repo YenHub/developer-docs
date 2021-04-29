@@ -1,0 +1,9 @@
+body>div.md-container>footer>div>div>div:nth-child(1) {
+    visibility: hidden;
+}
+.md-footer-copyright, .md-footer-social {
+    padding: 0 0;
+}
+.md-footer__link {
+    padding-top: 1rem;
+}
