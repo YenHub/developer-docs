@@ -34,6 +34,7 @@ nav:
             - 'Snippets & Tools':
                 - 'SVG Word Wrap Hack': 'engineering/javascript/snippets/svg-wrap-hack.md'
                 - 'Currying': 'engineering/javascript/snippets/currying.md'
+                - 'Debounce': 'engineering/javascript/snippets/debounce.md'
             - NPM:
                 - 'Working with local packages': 'engineering/javascript/npm/local-packages.md'
         - GIT:
