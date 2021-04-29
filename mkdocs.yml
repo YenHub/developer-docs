@@ -37,7 +37,7 @@ nav:
                 - 'Debounce': 'engineering/javascript/snippets/debounce.md'
             - NPM:
                 - 'Working with local packages': 'engineering/javascript/npm/local-packages.md'
-        - GIT:
+        - Git:
             - 'Git QuickStart Cheat Guide': 'engineering/git/git-quickstart.md'
             - 'Fixing Mistakes': 'engineering/git/undo-mistakes.md'
             - 'Migrating a Repo': 'engineering/git/migrate.md'

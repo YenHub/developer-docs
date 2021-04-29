@@ -14,9 +14,7 @@ apiLogger = newLogger('[TestAPI]');
 // We can now call our new function, passing simply the `msg` parameter
 apiLogger(`IT'S ALIVE!!`);
 >> [TestAPI] IT'S ALIVE!!
-```
 
-```javascript
 // It's most commonly seen written in short hand (just for giggles I presume!) using the IIFE pattern:-
 var newLogger = (logPrefix) => (msg) => console.log(`${logPrefix} ${msg}`) ;
 // Generate our new function, and invoke it immediately with a message
