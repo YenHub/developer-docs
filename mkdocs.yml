@@ -30,6 +30,8 @@ nav:
         - 'User Management': 'linux-tips/user-management.md'
         - 'MySQL Bash Backup Script': 'linux-tips/bash-mysql-backup.md'
     - JavaScript:
+        - 'Snippets & Tools':
+            - 'SVG Word Wrap Hack': 'javascript/snippets/svg-wrap-hack.md'
         - npm:
             - 'Working with local packages': 'javascript/npm/local-packages.md'
     - 'Misc':
