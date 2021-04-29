@@ -28,6 +28,7 @@ nav:
     - 'Linux Tips':
         - 'General Tips': 'linux-tips/general-tips.md'
         - 'User Management': 'linux-tips/user-management.md'
+        - 'MySQL Bash Backup Script': 'linux-tips/bash-mysql-backup.md'
     - 'Misc':
         - 'Atom Editor: Backup Process': 'misc/atom.md'
 
