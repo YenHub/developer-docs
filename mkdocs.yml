@@ -29,6 +29,9 @@ nav:
         - 'General Tips': 'linux-tips/general-tips.md'
         - 'User Management': 'linux-tips/user-management.md'
         - 'MySQL Bash Backup Script': 'linux-tips/bash-mysql-backup.md'
+    - JavaScript:
+        - npm:
+            - 'Working with local packages': 'javascript/npm/local-packages.md'
     - 'Misc':
         - 'Atom Editor: Backup Process': 'misc/atom.md'
         - 'Virtual Box HD Management': 'misc/vbox.md'
