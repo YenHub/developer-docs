@@ -11,6 +11,7 @@ theme:
     - navigation.tracking
     - navigation.indexes
     - navigation.top
+    - navigation.sections
   palette:
     primary:  light-blue
 
