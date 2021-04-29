@@ -1,66 +1,5 @@
 # Git QuickStart Cheat Guide
 
-## Pushing your local repo to GIT
-
-```batchfile
-git init
-git remote add origin https://[REPO_URL]
-
-:: IF Changing the origin after being set originally...
-:: git remote set-url origin https://[REPO_URL]
-:: Add the files
-git add .
-git add .gitignore
-
-:: [OPTIONAL] DO first commit if new repo
-git commit -m "Initial Commit"
-
-:: [OPTIONAL] Push existing repository
-git push -u origin master
-
-:: OR
-git push --all origin
-
-:: AND
-git push --tags origin
-```
-
-## Changing the origin
-
-```bash
-git remote rm origin
-git remote add origin git@github.com:aplikacjainfo/proj1.git
-git config master.remote origin
-git config master.merge refs/heads/master
-```
-
-## Cloning a repo
-
-```batchfile
-git clone https://github.com/some-user/some-repo
-git fetch --all
-
-:: List all branches
-git branch -a
-
-:: Checkout & track the remote branch
-:: git checkout RemteBranchName
-:: eg git checkout dev/new-env
-:: Checkout the branch you need to a local branch
-:: git checkout -b localBranchName origin/RemteBranchName
-:: BETTER YET...
-git checkout --track origin/RemteBranchName
-:: Branch RemteBranchName set up to track remote branch RemteBranchName from origin.
-:: Switched to a new branch 'RemteBranchName'
-```
-
-## Cloning a specific branch
-
-```bash
-# git clone -b branch-name git@github.com:org/repository.git .
-git clone -b test-analytics git@github.com:YenHub/Analytics.git .
-```
-
 ## Configure GIT
 
 NOTE: Is LOCAL if no global switch is used!
@@ -195,6 +134,67 @@ Windows GIT Bash (WSL)
 git config --global credential.helper wincred
 ```
 
+## Pushing your local repo to GIT
+
+```batchfile
+git init
+git remote add origin https://[REPO_URL]
+
+:: IF Changing the origin after being set originally...
+:: git remote set-url origin https://[REPO_URL]
+:: Add the files
+git add .
+git add .gitignore
+
+:: [OPTIONAL] DO first commit if new repo
+git commit -m "Initial Commit"
+
+:: [OPTIONAL] Push existing repository
+git push -u origin master
+
+:: OR
+git push --all origin
+
+:: AND
+git push --tags origin
+```
+
+## Changing the origin
+
+```bash
+git remote rm origin
+git remote add origin git@github.com:aplikacjainfo/proj1.git
+git config master.remote origin
+git config master.merge refs/heads/master
+```
+
+## Cloning a repo
+
+```batchfile
+git clone https://github.com/some-user/some-repo
+git fetch --all
+
+:: List all branches
+git branch -a
+
+:: Checkout & track the remote branch
+:: git checkout RemteBranchName
+:: eg git checkout dev/new-env
+:: Checkout the branch you need to a local branch
+:: git checkout -b localBranchName origin/RemteBranchName
+:: BETTER YET...
+git checkout --track origin/RemteBranchName
+:: Branch RemteBranchName set up to track remote branch RemteBranchName from origin.
+:: Switched to a new branch 'RemteBranchName'
+```
+
+## Cloning a specific branch
+
+```bash
+# git clone -b branch-name git@github.com:org/repository.git .
+git clone -b test-analytics git@github.com:YenHub/Analytics.git .
+```
+
 ## Multiple Git Accounts on same server
 
 ```bash
@@ -246,36 +246,6 @@ git remote -v
 git remote set-url origin git@github.com:username/repo_name.git
 
 ```
-
-## Rebase or Merge Commit ??
-
-### Neither, opt instead to do the following:-
-
-```bash
-git stash
-git pull
-git stash pop
-```
-
-### Why?
-
-Because of this pattern:-
-
-> For example, two people are working on the same branch. The branch starts as:
->     ...->C1
-> The first person finishes their work and pushes to the branch:
->     ...->C1->C2
-> The second person finishes their work and wants to push, but can't because they need to update. The local repository for the second person looks like:
->     ...->C1->C3
-> If the pull is set to merge, the second persons repository will look like.
->     ...->C1->C3->M1
->           \\      /
->            \->C2->
-> Where M1 is a merge commit. This new branch history will be pushed to the repo. If instead, the pull is set to rebase the local repo would look like:
->     ...->C1->C2->C3
-
-The former is preferable, otherwise C2 pushes the same code as C1, effectively sacrificing
-
 
 ## You effed up, and need to rename a branch...
 ```bash
