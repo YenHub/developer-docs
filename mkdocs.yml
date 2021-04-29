@@ -3,3 +3,5 @@ theme:
   name:      material
   favicon:   img/favicon.ico
   logo:      img/logo.png
+  palette:
+    primary: light-blue
