@@ -1,4 +1,4 @@
-# Git QuickStart Cheat Guide
+# Git Quick Start & Cheat Guide
 
 ## Configure GIT
 
@@ -381,17 +381,6 @@ git merge --no-commit --no-ff stash@{n}
 # Now your "good stash" has ONLY staged files.
 ```
 
-## Dealing with locked references
-
-```bash
-git remote prune origin
-```
-
-### But Why??
-
-> What this will do is remove references to remote branches in the folder .git/refs/remotes/origin. So this will not affect your local branches and it will not change anything remote, but it will update the local references you have to remote branches. It seems in some cases these references can contain data Git cannot handle correctly.
-
-
 ## Finding Strings In Git Log or History
 
 ```bash
@@ -514,3 +503,14 @@ OR the author
 git commit --amend --author="YenHub <example@domain.com>" --no-edit
 git rebase --continue
 ```
+
+## Dealing with locked references
+
+```bash
+git remote prune origin
+```
+
+### But Why??
+
+> What this will do is remove references to remote branches in the folder .git/refs/remotes/origin. So this will not affect your local branches and it will not change anything remote, but it will update the local references you have to remote branches. It seems in some cases these references can contain data Git cannot handle correctly.
+
