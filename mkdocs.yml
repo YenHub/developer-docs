@@ -26,15 +26,15 @@ repo_name:    YenHub/developer-docs
 
 nav:
     - Home:   index.md
-    - 'Linux Tips':
-        - 'General Tips': 'linux-tips/general-tips.md'
-        - 'User Management': 'linux-tips/user-management.md'
-        - 'MySQL Bash Backup Script': 'linux-tips/bash-mysql-backup.md'
     - JavaScript:
         - 'Snippets & Tools':
             - 'SVG Word Wrap Hack': 'javascript/snippets/svg-wrap-hack.md'
         - npm:
             - 'Working with local packages': 'javascript/npm/local-packages.md'
+    - 'Linux Tips':
+        - 'General Tips': 'linux-tips/general-tips.md'
+        - 'User Management': 'linux-tips/user-management.md'
+        - "Let's Encrypt": 'linux-tips/lets-encrypt.md'
     - 'Databases':
         - SQL:
             - 'MySQL Bash Backup Script': 'databases/bash-mysql-backup.md'
