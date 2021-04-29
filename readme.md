@@ -3,6 +3,9 @@
 ![Author] ![Repo Size] ![Last Commit] ![Site Status] ![Open Issues] ![Beer Money]
 [![🚀 Deploy Docs on push](https://github.com/YenHub/developer-docs/actions/workflows/pushtoftp.yaml/badge.svg)](https://github.com/YenHub/developer-docs/actions/workflows/pushtoftp.yaml)
 
+This is the public repository for [Developer Docs](HTTPS://developer.quickdash.co.uk)
+
+This project has been built using the exceptional MKDocs project.
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
@@ -19,6 +22,10 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+## Deployment
+
+Auto-deploy via GitHub actions, take a peek! 👁️
 
 [Author]: https://img.shields.io/badge/made%20by-YenHub%20❤-blue
 [Beer Money]:https://img.shields.io/badge/beer%20money-$0-ff69b4
