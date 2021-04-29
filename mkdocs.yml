@@ -3,5 +3,14 @@ theme:
   name:      material
   favicon:   img/favicon.ico
   logo:      img/logo.png
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.indexes
   palette:
     primary: light-blue
+nav:
+    - Home:  index.md
+    - 'Linux Tips':
+        - 'General Tips': 'linux-tips/general-tips.md'
+        - 'User Management': 'linux-tips/user-management.md'
