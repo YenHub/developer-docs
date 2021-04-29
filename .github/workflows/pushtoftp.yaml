@@ -13,12 +13,14 @@ jobs:
       - name:              🚚 Get latest code
         uses:              actions/checkout@v2.3.2
 
-      - name:              🐱‍👤 Setup Python
+      - name:              🐱‍👤 Setup Python & Build Docs
         uses:              actions/setup-python@v2
         with:
           python-version:  3.x
-      - run:               pip install mkdocs-material
-      - run:               mkdocs build
+      - name:              💥 Build Docs
+        run:               |
+            pip install mkdocs-material
+            mkdocs build
 
       - name:              🔥 Sync files to the server
         uses:              SamKirkland/FTP-Deploy-Action@4.0.0
