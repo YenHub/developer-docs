@@ -10,7 +10,9 @@ theme:
   palette:
     primary: light-blue
 nav:
-    - Home:  index.md
+    - Home:   index.md
     - 'Linux Tips':
         - 'General Tips': 'linux-tips/general-tips.md'
         - 'User Management': 'linux-tips/user-management.md'
+    - 'Misc':
+        - 'Atom Editor: Backup Process': 'misc/atom.md'
