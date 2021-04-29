@@ -53,8 +53,10 @@ echo done :D
 
 There is one in AppData (The offender in WSL2) and ProgramData too `C:\ProgramData\DockerDesktop\vm-data`
 
+Make sure to insert your [USERHERE]
+
 ```powershell
-Mount-VHD "C:\Users\gilke\AppData\Local\Docker\wsl\data\ext4.vhdx" -ReadOnly -Passthru | Optimize-VHD -Mode Quick -Passthru | Optimize-VHD -Mode Full -Passthru | Optimize-VHD -Mode Full -Passthru | Dismount-VHD -Passthru | Optimize-VHD -Mode Quick -Passthru | Optimize-VHD -Mode Full
+Mount-VHD "C:\Users\[USERHERE]\AppData\Local\Docker\wsl\data\ext4.vhdx" -ReadOnly -Passthru | Optimize-VHD -Mode Quick -Passthru | Optimize-VHD -Mode Full -Passthru | Optimize-VHD -Mode Full -Passthru | Dismount-VHD -Passthru | Optimize-VHD -Mode Quick -Passthru | Optimize-VHD -Mode Full
 ```
 
 ## docker-compose
