@@ -55,6 +55,7 @@ nav:
         - 'Misc':
             - 'Virtual Box HD Management': 'devops/misc/vbox.md'
             - 'Redis Quick Start': 'devops/misc/redis.md'
+            - 'Docker Quick Start': 'devops/misc/docker.md'
 
     - SysAdmin:
         - Windows:
