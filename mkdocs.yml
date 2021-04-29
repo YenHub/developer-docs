@@ -1,4 +1,5 @@
 site_name:    Developer Docs
+
 theme:
   name:       material
   favicon:    img/favicon.ico
@@ -11,15 +12,17 @@ theme:
     - navigation.indexes
   palette:
     primary:  light-blue
+
 extra:
   social:
-    - icon:   fontawesome/brands/github
-      link:   https://github.com/YenHub/developer-docs
-      name:   Developer Docs on GitHub
-extra:
+    - icon:   fontawesome/brands/linkedin
+      link:   https://www.linkedin.com/in/iangilkes
+      name:   Find me on LinkedIn
   generator:  false
+
 repo_url:     https://github.com/YenHub/developer-docs
 repo_name:    YenHub/developer-docs
+
 nav:
     - Home:   index.md
     - 'Linux Tips':
