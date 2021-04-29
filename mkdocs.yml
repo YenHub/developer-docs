@@ -48,6 +48,9 @@ nav:
         - 'Misc':
             - 'Virtual Box HD Management': 'misc/vbox.md'
             - 'Redis Quick Start': 'devops/misc/redis.md'
+    - SysAdmin:
+        - Windows:
+            - 'Vmmem High Memory Usage': 'sysadmin/windows/vmmem.md'
 
 extra_css:
   - stylesheets/extra.css
