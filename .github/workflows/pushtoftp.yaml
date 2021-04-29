@@ -13,7 +13,7 @@ jobs:
       - name:              🚚 Get latest code
         uses:              actions/checkout@v2.3.2
 
-      - name:              🐱‍👤 Setup Python & Build Docs
+      - name:              🐱‍👤 Setup Python
         uses:              actions/setup-python@v2
         with:
           python-version:  3.x
