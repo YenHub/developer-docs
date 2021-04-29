@@ -1,5 +1,5 @@
-name:                      🚀 Deploy Docs on push
-on:                    [workflow_dispatch]
+name:                      🚀 Deploy Docs on push (Manual)
+on:                        [workflow_dispatch]
 jobs:
   build:
     name:                  🎉 Deploy
