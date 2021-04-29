@@ -40,6 +40,7 @@ nav:
             - 'Git Friend Finder!': 'engineering/git/friend-finder.md'
             - 'Migrating a Repo': 'engineering/git/migrate.md'
             - 'Rebase -vs- Merge': 'engineering/git/rebase-merge.md'
+            - 'Fixing Mistakes': 'engineering/git/undo-mistakes.md'
         - Misc:
             - 'Atom Editor: Backup Process': 'engineering/misc/atom.md'
             - 'The Joel Test': 'engineering/misc/joel.md'

@@ -247,23 +247,6 @@ git remote set-url origin git@github.com:username/repo_name.git
 
 ```
 
-## You effed up, and need to rename a branch...
-```bash
-# Ensure you are on the branch you wish to rename
-git branch -m new-branch-name
-
-# If you're not on the branch;
-git branch -m old-branch-name new-branch-name
-
-# IF the renamed branch is not yet pushed to the remote; push it normally
-git push -u origin new-branch-name
-
-# IF you are renaming the remote & local; Delete the remote, push the new
-git push origin :old-branch-name new-branch-name
-
-# Just delete the remote
-```
-
 ## Merging Master to Current Branch
 
 ```bash
@@ -307,18 +290,6 @@ git commit -m "[FEATURE][<story id>] <what you have done>"
 git push --set-upstream origin <Your local branch> -o ci.skip
 ```
 
-## Screwing up a merge?
-
-```bash
-git merge --abort
-```
-
-## Undo Commits
-
-```bash
-git reset --hard HEAD~1
-```
-
 ## Get commits waiting
 
 ```bash
@@ -340,7 +311,6 @@ git log --branches --not --remotes
 ```bash
 git merge --no-commit --no-ff origin/feature/branch-number-ref
 ```
-
 
 ## Deleting Branches
 
@@ -424,7 +394,6 @@ git remote prune origin
 
 ## Finding Strings In Git Log or History
 
-
 ```bash
 # Where `password` is the string you're looking for..
 git log -Spassword
@@ -441,7 +410,6 @@ git log --all --grep='RemoteCloudSyncService' -i
 # Advanced regex piping...
 git log -G "import.*RemoteCloudSyncService" -p | egrep "(RemoteCloudSyncService|commit)"
 ```
-
 
 ## Checkout a specific commit
 
