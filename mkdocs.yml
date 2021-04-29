@@ -26,24 +26,28 @@ repo_name:    YenHub/developer-docs
 
 nav:
     - Home:   index.md
-    - JavaScript:
-        - 'Snippets & Tools':
-            - 'SVG Word Wrap Hack': 'javascript/snippets/svg-wrap-hack.md'
-        - npm:
-            - 'Working with local packages': 'javascript/npm/local-packages.md'
-    - 'Linux Tips':
-        - 'General Tips': 'linux-tips/general-tips.md'
-        - 'User Management': 'linux-tips/user-management.md'
-        - "Let's Encrypt": 'linux-tips/lets-encrypt.md'
-    - 'Databases':
-        - SQL:
-            - 'MySQL Bash Backup Script': 'databases/bash-mysql-backup.md'
-        - PostgreSQL:
-            - 'PostgreSQL Quick Start': 'databases/postgres.md'
-    - 'Misc':
-        - 'Atom Editor: Backup Process': 'misc/atom.md'
-        - 'Virtual Box HD Management': 'misc/vbox.md'
-        - 'The Joel Test': 'misc/joel.md'
+    - 'Software Engineering':
+        - JavaScript:
+            - 'Snippets & Tools':
+                - 'SVG Word Wrap Hack': 'engineering/javascript/snippets/svg-wrap-hack.md'
+            - NPM:
+                - 'Working with local packages': 'engineering/javascript/npm/local-packages.md'
+        - Misc:
+            - 'Atom Editor: Backup Process': 'engineering/misc/atom.md'
+            - 'The Joel Test': 'engineering/misc/joel.md'
+    - DevOps:
+        - 'Linux Tips':
+            - 'General Tips': 'devops/linux-tips/general-tips.md'
+            - 'User Management': 'devops/linux-tips/user-management.md'
+            - "Let's Encrypt": 'devops/linux-tips/lets-encrypt.md'
+        - 'Databases':
+            - MySQL:
+                - 'MySQL Bash Backup Script': 'devops/databases/bash-mysql-backup.md'
+            - PostgreSQL:
+                - 'PostgreSQL Quick Start': 'devops/databases/postgres.md'
+        - 'Misc':
+            - 'Virtual Box HD Management': 'misc/vbox.md'
+            - 'Redis Quick Start': 'devops/misc/redis.md'
 
 extra_css:
   - stylesheets/extra.css
