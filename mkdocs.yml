@@ -35,6 +35,11 @@ nav:
             - 'SVG Word Wrap Hack': 'javascript/snippets/svg-wrap-hack.md'
         - npm:
             - 'Working with local packages': 'javascript/npm/local-packages.md'
+    - 'Databases':
+        - SQL:
+            - 'MySQL Bash Backup Script': 'databases/bash-mysql-backup.md'
+        - PostgreSQL:
+            - 'PostgreSQL Quick Start': 'databases/postgres.md'
     - 'Misc':
         - 'Atom Editor: Backup Process': 'misc/atom.md'
         - 'Virtual Box HD Management': 'misc/vbox.md'
