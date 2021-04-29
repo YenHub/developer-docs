@@ -1,6 +1,7 @@
 # Developer Docs using MKDocs
 
-![Author] ![Repo Size] ![Last Commit] ![Site Status] ![Open Issues] ![Beer Money] 
+![Author] ![Repo Size] ![Last Commit] ![Site Status] ![Open Issues] ![Beer Money]
+[![🚀 Deploy Docs on push](https://github.com/YenHub/developer-docs/actions/workflows/push-to-ftp.yaml/badge.svg)](https://github.com/YenHub/developer-docs/actions/workflows/push-to-ftp.yaml)
 
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
