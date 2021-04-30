@@ -80,6 +80,7 @@ nav:
             - 'Docker Quick Start': 'devops/misc/docker.md'
             - 'Environment Variables': 'devops/misc/environment-vars.md'
             - 'Load Testing': 'devops/misc/load-testing.md'
+            - 'Putty Backup How-To': 'devops/misc/putty.md'
 
     - SysAdmin:
         - Windows:
