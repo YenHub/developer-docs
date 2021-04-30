@@ -8,7 +8,7 @@ Port '50309' (or similar) is already being used by another application
 
 Or even...
 
-![image](../../img/port-block.png){: .center-port}
+![image](../../img/port-block.png){: .center .port}
 
 ---
 

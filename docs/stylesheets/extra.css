@@ -8,9 +8,14 @@ body>div.md-container>footer>div>div>div:nth-child(1) {
     padding-top: 1rem;
 }
 
-.center-port {
+.port {
     display: block;
     margin: 0 auto;
     width: 450px;
     height: auto;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
 }

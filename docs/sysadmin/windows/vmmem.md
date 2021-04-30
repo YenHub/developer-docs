@@ -4,6 +4,8 @@ The vmmem process is a virtual process that the system synthesizes to represent 
 
 If you find vmmem consuming a lot of memory and CPU resources, you can use these steps to keep on top of it!
 
+![image](../../img/vmmem.png){: .center}
+
 ## Solution
 
 Add the following alias to the tail of `~/.bashrc`
