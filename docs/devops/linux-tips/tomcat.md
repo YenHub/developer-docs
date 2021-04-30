@@ -151,6 +151,6 @@ sudo cat /etc/tomcat8/logs/catalina.out
 
 ```
 
-> Now try to access the [manager interface](http://server_domain_or_IP:8080/manager/html)
+🎉 Now try to access the [manager interface](http://server_domain_or_IP:8080/manager/html)
 
-> Now try to access the [host manager interface](http://server_domain_or_IP:8080/host-manager/html/)
+🎉 Now try to access the [host manager interface](http://server_domain_or_IP:8080/host-manager/html/)
