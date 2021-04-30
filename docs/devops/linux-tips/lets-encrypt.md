@@ -34,7 +34,7 @@ sudo certbot --apache -d example.com
 ```bash
 sudo certbot --apache -d example.com -d www.example.com
 
-sudo certbot --apache -d dev.admin.sqnhealth.com -d dev.admin.sqnhealth.com -d dev.code.sqnhealth.com -d dev.dice.sqnhealth.com -d dev.cms.sqnhealth.com -d dev.sims.sqnhealth.com -d dev.api.sqnhealth.com
+sudo certbot --apache -d dev.admin.site.com -d staging.admin.site.com -d prod.admin.site.com
 ```
 
 ### Verify the auto-renewal
@@ -46,7 +46,7 @@ sudo certbot renew --dry-run
 ### Revoke a certificate
 
 ```bash
-sudo certbot certonly --manual --preferred-challenges=http -d dev.admin.sqnhealth.com -d dev.admin.sqnhealth.com
+sudo certbot certonly --manual --preferred-challenges=http -d dev.admin.site.com -d dev.admin.site.com
 ```
 
 ## Manual Certificate Installation
