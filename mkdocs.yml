@@ -59,6 +59,7 @@ nav:
 
         - 'Databases':
             - MySQL:
+                - 'MySQL Snippets': 'devops/databases/mysql-tips.md'
                 - 'MySQL Bash Backup Script': 'devops/databases/bash-mysql-backup.md'
             - PostgreSQL:
                 - 'PostgreSQL Quick Start': 'devops/databases/postgres.md'
