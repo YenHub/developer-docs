@@ -39,6 +39,8 @@ nav:
                 - 'Currying': 'engineering/javascript/snippets/currying.md'
                 - 'Debounce': 'engineering/javascript/snippets/debounce.md'
             - NPM:
+                - 'NVM QuickStart': 'engineering/javascript/npm/nvm.md'
+                - 'NPM Tips & Snippets': 'engineering/javascript/npm/npm-tips.md'
                 - 'Working with local packages': 'engineering/javascript/npm/local-packages.md'
             - Node:
                 - 'Colourful Console Logging': 'engineering/javascript/node/colour-logging.md'
