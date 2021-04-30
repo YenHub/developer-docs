@@ -47,6 +47,7 @@ nav:
             - Node:
                 - 'Colourful Console Logging': 'engineering/javascript/node/colour-logging.md'
         - Git:
+            - '.gitignore Template': 'engineering/git/gitignore.md'
             - 'Git QuickStart Cheat Guide': 'engineering/git/git-quickstart.md'
             - 'Fixing Mistakes': 'engineering/git/undo-mistakes.md'
             - 'Migrating a Repo': 'engineering/git/migrate.md'
