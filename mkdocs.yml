@@ -2,6 +2,9 @@ site_name:              Developer Docs
 repo_url:               https://github.com/YenHub/developer-docs
 repo_name:              YenHub/developer-docs
 
+plugins:
+  - search
+
 theme:
   name:                 material
   favicon:              img/favicon.ico
@@ -14,6 +17,7 @@ theme:
     - navigation.indexes
     - navigation.top
     - navigation.sections
+    - search.suggest
   palette:
     primary:            light-blue
 
@@ -30,68 +34,68 @@ markdown_extensions:
   - attr_list
 
 nav:
-    - Home:             index.md
+  - Home:               index.md
 
-    - 'Software Engineering':
-        - JavaScript:
-            - 'Snippets & Tools':
-                - 'SVG Word Wrap Hack': 'engineering/javascript/snippets/svg-wrap-hack.md'
-                - 'Currying': 'engineering/javascript/snippets/currying.md'
-                - 'Debounce': 'engineering/javascript/snippets/debounce.md'
-            - React:
-                - 'React DevTools': 'engineering/javascript/react/react-devtools.md'
-            - NPM:
-                - 'NVM QuickStart': 'engineering/javascript/npm/nvm.md'
-                - 'NPM Tips & Snippets': 'engineering/javascript/npm/npm-tips.md'
-                - 'Working with local packages': 'engineering/javascript/npm/local-packages.md'
-            - Node:
-                - 'Default .eslintrc': 'engineering/javascript/node/eslintrc.md'
-                - 'Colourful Console Logging': 'engineering/javascript/node/colour-logging.md'
-        - Git:
-            - '.gitignore Template': 'engineering/git/gitignore.md'
-            - 'Git QuickStart Cheat Guide': 'engineering/git/git-quickstart.md'
-            - 'Fixing Mistakes': 'engineering/git/undo-mistakes.md'
-            - 'Migrating a Repo': 'engineering/git/migrate.md'
-            - 'Rebase -vs- Merge': 'engineering/git/rebase-merge.md'
-            - 'Git Friend Finder!': 'engineering/git/friend-finder.md'
-        - Misc:
-            - 'XMLHttp Response Codes': 'engineering/misc/xmlhttp.md'
-            - 'Atom Editor: Backup Process': 'engineering/misc/atom.md'
-            - 'The Joel Test': 'engineering/misc/joel.md'
+  - "Software Engineering":
+      - JavaScript:
+          - "Snippets & Tools":
+              - "SVG Word Wrap Hack": "engineering/javascript/snippets/svg-wrap-hack.md"
+              - "Currying": "engineering/javascript/snippets/currying.md"
+              - "Debounce": "engineering/javascript/snippets/debounce.md"
+          - React:
+              - "React DevTools": "engineering/javascript/react/react-devtools.md"
+          - NPM:
+              - "NVM QuickStart": "engineering/javascript/npm/nvm.md"
+              - "NPM Tips & Snippets": "engineering/javascript/npm/npm-tips.md"
+              - "Working with local packages": "engineering/javascript/npm/local-packages.md"
+          - Node:
+              - "Default .eslintrc": "engineering/javascript/node/eslintrc.md"
+              - "Colourful Console Logging": "engineering/javascript/node/colour-logging.md"
+      - Git:
+          - ".gitignore Template": "engineering/git/gitignore.md"
+          - "Git QuickStart Cheat Guide": "engineering/git/git-quickstart.md"
+          - "Fixing Mistakes": "engineering/git/undo-mistakes.md"
+          - "Migrating a Repo": "engineering/git/migrate.md"
+          - "Rebase -vs- Merge": "engineering/git/rebase-merge.md"
+          - "Git Friend Finder!": "engineering/git/friend-finder.md"
+      - Misc:
+          - "XMLHttp Response Codes": "engineering/misc/xmlhttp.md"
+          - "Atom Editor: Backup Process": "engineering/misc/atom.md"
+          - "The Joel Test": "engineering/misc/joel.md"
 
-    - DevOps:
-        - 'Linux Tips':
-            - 'General Tips': 'devops/linux-tips/general-tips.md'
-            - 'Tasksel Automation': 'devops/linux-tips/tasksel.md'
-            - 'Fail2Ban QuickStart': 'devops/linux-tips/fail-2-ban.md'
-            - 'User Management': 'devops/linux-tips/user-management.md'
-            - "Let's Encrypt": 'devops/linux-tips/lets-encrypt.md'
-            - 'TomCat QuickStart': 'devops/linux-tips/tomcat.md'
-            - 'Ubuntu Welcome Banner': 'devops/linux-tips/welcome-banner.md'
+  - DevOps:
+      - "Linux Tips":
+          - "General Tips": "devops/linux-tips/general-tips.md"
+          - "Tasksel Automation": "devops/linux-tips/tasksel.md"
+          - "Fail2Ban QuickStart": "devops/linux-tips/fail-2-ban.md"
+          - "User Management": "devops/linux-tips/user-management.md"
+          - "Let's Encrypt": "devops/linux-tips/lets-encrypt.md"
+          - "TomCat QuickStart": "devops/linux-tips/tomcat.md"
+          - "Ubuntu Welcome Banner": "devops/linux-tips/welcome-banner.md"
 
-        - 'Databases':
-            - MySQL:
-                - 'MySQL Snippets': 'devops/databases/mysql-tips.md'
-                - 'MySQL Bash Backup Script': 'devops/databases/bash-mysql-backup.md'
-            - PostgreSQL:
-                - 'PostgreSQL Quick Start': 'devops/databases/postgres.md'
-            - 'MongoDB':
-                - 'PM2, Node & Mongo': 'devops/databases/node-mongo.md'
+      - "Databases":
+          - MySQL:
+              - "MySQL Snippets": "devops/databases/mysql-tips.md"
+              - "MySQL Bash Backup Script": "devops/databases/bash-mysql-backup.md"
+          - PostgreSQL:
+              - "PostgreSQL Quick Start": "devops/databases/postgres.md"
+          - "MongoDB":
+              - "PM2, Node & Mongo": "devops/databases/node-mongo.md"
 
-        - 'Misc':
-            - 'LAMP on WSL2': 'devops/misc/wsl-lamp.md'
-            - 'Load Testing': 'devops/misc/load-testing.md'
-            - 'Redis Quick Start': 'devops/misc/redis.md'
-            - 'Docker Quick Start': 'devops/misc/docker.md'
-            - 'Putty Backup How-To': 'devops/misc/putty.md'
-            - 'Environment Variables': 'devops/misc/environment-vars.md'
-            - 'CLI Sitemap Generator': 'devops/misc/sitemap-gen.md'
-            - 'Virtual Box HD Management': 'devops/misc/vbox.md'
+      - "Misc":
+          - "Load Testing": "devops/misc/load-testing.md"
+          - "LAMP on WSL2": "devops/misc/wsl-lamp.md"
+          - "Redis Quick Start": "devops/misc/redis.md"
+          - "Docker Quick Start": "devops/misc/docker.md"
+          - "Putty Backup How-To": "devops/misc/putty.md"
+          - "Environment Variables": "devops/misc/environment-vars.md"
+          - "CLI Sitemap Generator": "devops/misc/sitemap-gen.md"
+          - "Virtual Box HD Management": "devops/misc/vbox.md"
 
-    - SysAdmin:
-        - Windows:
-            - 'Robo Copy': 'sysadmin/windows/robocopy.md'
-            - 'Powershell Snippets': 'sysadmin/windows/powershell.md'
-            - 'Vmmem High Memory Usage': 'sysadmin/windows/vmmem.md'
-            - 'Fixing Reserved Ports': 'sysadmin/windows/reserved-ports.md'
-            - 'Bring window into view': 'sysadmin/windows/lost-window.md'
+  - SysAdmin:
+      - Windows:
+          - "Robo Copy": "sysadmin/windows/robocopy.md"
+          - "Powershell Snippets": "sysadmin/windows/powershell.md"
+          - "Vmmem High Memory Usage": "sysadmin/windows/vmmem.md"
+          - "Fixing Reserved Ports": "sysadmin/windows/reserved-ports.md"
+          - "Bring window into view": "sysadmin/windows/lost-window.md"
