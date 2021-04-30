@@ -70,7 +70,7 @@ function svgTextWrap(caption) {
 
 // (IG) Initiate Text Wrapping for SVGs
 $(document).ready( function(){
-    $('.contact-us__contact-options-link svg').each((ind, elem) => {
+    $('.some-svg svg').each((ind, elem) => {
         var $elem = $(elem);
         var textElem = $elem.find('text')[0];
         var textSnippet = textElem.innerHTML.trim();
