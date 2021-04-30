@@ -85,6 +85,7 @@ nav:
             - 'Docker Quick Start': 'devops/misc/docker.md'
             - 'Putty Backup How-To': 'devops/misc/putty.md'
             - 'Environment Variables': 'devops/misc/environment-vars.md'
+            - 'CLI Sitemap Generator': 'devops/misc/sitemap-gen.md'
             - 'Virtual Box HD Management': 'devops/misc/vbox.md'
 
     - SysAdmin:
