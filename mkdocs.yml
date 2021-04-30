@@ -1,13 +1,13 @@
-site_name:    Developer Docs
-repo_url:     https://github.com/YenHub/developer-docs
-repo_name:    YenHub/developer-docs
+site_name:              Developer Docs
+repo_url:               https://github.com/YenHub/developer-docs
+repo_name:              YenHub/developer-docs
 
 theme:
-  name:       material
-  favicon:    img/favicon.ico
-  logo:       img/logo.png
+  name:                 material
+  favicon:              img/favicon.ico
+  logo:                 img/logo.png
   icon:
-    repo:     fontawesome/brands/github
+    repo:               fontawesome/brands/github
   features:
     - navigation.instant
     - navigation.tracking
@@ -15,13 +15,13 @@ theme:
     - navigation.top
     - navigation.sections
   palette:
-    primary:  light-blue
+    primary:            light-blue
 
 extra:
   social:
-    - icon:   fontawesome/brands/linkedin
-      link:   https://www.linkedin.com/in/iangilkes
-      name:   Find me on LinkedIn
+    - icon:             fontawesome/brands/linkedin
+      link:             https://www.linkedin.com/in/iangilkes
+      name:             Find me on LinkedIn
 
 extra_css:
   - stylesheets/extra.css
@@ -30,7 +30,7 @@ markdown_extensions:
   - attr_list
 
 nav:
-    - Home:   index.md
+    - Home:             index.md
 
     - 'Software Engineering':
         - JavaScript:
