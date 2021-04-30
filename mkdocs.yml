@@ -65,6 +65,8 @@ nav:
                 - 'MySQL Bash Backup Script': 'devops/databases/bash-mysql-backup.md'
             - PostgreSQL:
                 - 'PostgreSQL Quick Start': 'devops/databases/postgres.md'
+            - 'MongoDB':
+                - 'PM2, Node & Mongo': 'devops/databases/node-mongo.md'
 
         - 'Misc':
             - 'Virtual Box HD Management': 'devops/misc/vbox.md'
