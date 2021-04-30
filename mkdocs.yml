@@ -71,6 +71,7 @@ nav:
             - 'Redis Quick Start': 'devops/misc/redis.md'
             - 'Docker Quick Start': 'devops/misc/docker.md'
             - 'Environment Variables': 'devops/misc/environment-vars.md'
+            - 'Load Testing': 'devops/misc/load-testing.md'
 
     - SysAdmin:
         - Windows:
