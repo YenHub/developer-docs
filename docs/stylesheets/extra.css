@@ -7,3 +7,10 @@ body>div.md-container>footer>div>div>div:nth-child(1) {
 .md-footer__link {
     padding-top: 1rem;
 }
+
+.center-port {
+    display: block;
+    margin: 0 auto;
+    width: 450px;
+    height: auto;
+}

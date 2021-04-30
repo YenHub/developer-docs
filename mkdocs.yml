@@ -26,6 +26,9 @@ extra:
 extra_css:
   - stylesheets/extra.css
 
+markdown_extensions:
+  - attr_list
+
 nav:
     - Home:   index.md
 
@@ -68,3 +71,4 @@ nav:
     - SysAdmin:
         - Windows:
             - 'Vmmem High Memory Usage': 'sysadmin/windows/vmmem.md'
+            - 'Fixing Reserved Ports': 'sysadmin/windows/reserved-ports.md'
