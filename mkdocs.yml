@@ -51,6 +51,7 @@ nav:
             - 'Rebase -vs- Merge': 'engineering/git/rebase-merge.md'
             - 'Git Friend Finder!': 'engineering/git/friend-finder.md'
         - Misc:
+            - 'XMLHttp Response Codes': 'engineering/misc/xmlhttp.md'
             - 'Atom Editor: Backup Process': 'engineering/misc/atom.md'
             - 'The Joel Test': 'engineering/misc/joel.md'
 
