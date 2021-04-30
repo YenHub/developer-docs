@@ -70,6 +70,7 @@ nav:
             - 'Virtual Box HD Management': 'devops/misc/vbox.md'
             - 'Redis Quick Start': 'devops/misc/redis.md'
             - 'Docker Quick Start': 'devops/misc/docker.md'
+            - 'Environment Variables': 'devops/misc/environment-vars.md'
 
     - SysAdmin:
         - Windows:
