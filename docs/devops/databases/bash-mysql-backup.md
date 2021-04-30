@@ -20,7 +20,7 @@ Linux User: linux-admin
 
 ## Deployment Method & Usage
 
-A cronjob has been configured under user linux-admin who is documented in our DR logs and with Andrew Davey
+A cronjob has been configured under user linux-admin.
 
 ## Crontask being run
 
