@@ -1,5 +1,9 @@
 # Console Logging with Colour in Node
 
+There are pretty neat libraries like [Chalk](https://www.npmjs.com/package/chalk) you can use for more creative console logging.
+
+If you just need some simple colour in your logs, this trick can be super handy too!
+
 This trick leverages string interpolation where `%s` is the value we are injecting.
 
 You only need to set the colour once, all further logs will use the colour chosen.
@@ -7,6 +11,8 @@ You only need to set the colour once, all further logs will use the colour chose
 You can use the arg `\x1b[0m` to reset the terminal colour back to default.
 
 ```javascript
+#!/usr/bin/env node
+
 console.log("\x1b[42m %s \x1b[0m", 'Success!');         // Green
 console.log("\x1b[31m \x1b[4m %s \x1b[0m", 'ERROR!');   // Red & Underscored
 console.log("\x1b[36m %s \x1b[0m", "Cyan Text :p");     // cyan
@@ -17,7 +23,7 @@ Result:
 
 ## Colour reference
 
-Below you can find colours reference of commands you can use when running node.js application:
+Here is a list of the various toys we have to play with 😄
 
 | Value         | Result     |
 | ------------- | ---------- |
