@@ -1,11 +1,5 @@
 # NPM Tips & Snippets
 
-## NPM: Ignore SSL
-
-```bash
-npm config set strict-ssl false
-```
-
 ## Install NVM
 
 [Node Version Manager (GitHub)](https://github.com/nvm-sh/nvm) is a helpful tool to manage node versions.
