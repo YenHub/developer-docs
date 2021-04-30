@@ -5,10 +5,12 @@ Simply save this at the root of your project:
 ```pre
 - project
     - .git
-    - .eslint
+    - .eslintrc
     - .gitignore
     - ...
 ```
+
+Content:
 
 ```pre
 # Logs

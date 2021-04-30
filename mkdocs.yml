@@ -45,6 +45,7 @@ nav:
                 - 'NPM Tips & Snippets': 'engineering/javascript/npm/npm-tips.md'
                 - 'Working with local packages': 'engineering/javascript/npm/local-packages.md'
             - Node:
+                - 'Default .eslintrc': 'engineering/javascript/node/eslintrc.md'
                 - 'Colourful Console Logging': 'engineering/javascript/node/colour-logging.md'
         - Git:
             - '.gitignore Template': 'engineering/git/gitignore.md'
