@@ -82,5 +82,6 @@ nav:
     - SysAdmin:
         - Windows:
             - 'Robo Copy': 'sysadmin/windows/robocopy.md'
+            - 'Powershell Snippets': 'sysadmin/windows/powershell.md'
             - 'Vmmem High Memory Usage': 'sysadmin/windows/vmmem.md'
             - 'Fixing Reserved Ports': 'sysadmin/windows/reserved-ports.md'
