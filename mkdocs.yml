@@ -58,6 +58,7 @@ nav:
     - DevOps:
         - 'Linux Tips':
             - 'General Tips': 'devops/linux-tips/general-tips.md'
+            - 'Tasksel Automation': 'devops/linux-tips/tasksel.md'
             - 'Fail2Ban QuickStart': 'devops/linux-tips/fail-2-ban.md'
             - 'User Management': 'devops/linux-tips/user-management.md'
             - "Let's Encrypt": 'devops/linux-tips/lets-encrypt.md'
