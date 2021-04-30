@@ -11,7 +11,7 @@ git stash pop
 ### Why?
 
 Because of this pattern:-
-
+```pre
 > For example, two people are working on the same branch. The branch starts as:
 >     ...->C1
 > The first person finishes their work and pushes to the branch:
@@ -24,5 +24,6 @@ Because of this pattern:-
 >            \->C2->
 > Where M1 is a merge commit. This new branch history will be pushed to the repo. If instead, the pull is set to rebase the local repo would look like:
 >     ...->C1->C2->C3
+```
 
 The former is preferable, otherwise C2 pushes the same code as C1, effectively sacrificing
