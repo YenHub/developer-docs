@@ -38,6 +38,8 @@ nav:
                 - 'SVG Word Wrap Hack': 'engineering/javascript/snippets/svg-wrap-hack.md'
                 - 'Currying': 'engineering/javascript/snippets/currying.md'
                 - 'Debounce': 'engineering/javascript/snippets/debounce.md'
+            - React:
+                - 'React DevTools': 'engineering/javascript/react/react-devtools.md'
             - NPM:
                 - 'NVM QuickStart': 'engineering/javascript/npm/nvm.md'
                 - 'NPM Tips & Snippets': 'engineering/javascript/npm/npm-tips.md'
