@@ -77,12 +77,13 @@ nav:
                 - 'PM2, Node & Mongo': 'devops/databases/node-mongo.md'
 
         - 'Misc':
-            - 'Virtual Box HD Management': 'devops/misc/vbox.md'
+            - 'LAMP on WSL2': 'devops/misc/wsl-lamp.md'
+            - 'Load Testing': 'devops/misc/load-testing.md'
             - 'Redis Quick Start': 'devops/misc/redis.md'
             - 'Docker Quick Start': 'devops/misc/docker.md'
-            - 'Environment Variables': 'devops/misc/environment-vars.md'
-            - 'Load Testing': 'devops/misc/load-testing.md'
             - 'Putty Backup How-To': 'devops/misc/putty.md'
+            - 'Environment Variables': 'devops/misc/environment-vars.md'
+            - 'Virtual Box HD Management': 'devops/misc/vbox.md'
 
     - SysAdmin:
         - Windows:
