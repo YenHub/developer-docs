@@ -85,3 +85,4 @@ nav:
             - 'Powershell Snippets': 'sysadmin/windows/powershell.md'
             - 'Vmmem High Memory Usage': 'sysadmin/windows/vmmem.md'
             - 'Fixing Reserved Ports': 'sysadmin/windows/reserved-ports.md'
+            - 'Bring window into view': 'sysadmin/windows/lost-window.md'
