@@ -2,8 +2,47 @@
 
 Use npkill to cleanup node_modules system wide 😎
 
-![NPKill Demo]
+![image](../../../img/npkill.gif){: .center}
 
-It's common to see over 1GB easily recoverable for old projects, you can always `npm i` them again! 
+It's common to see over 1GB easily recoverable for old projects, you can always `npm i` them again!
 
-[NPKill Demo]: (https://res.cloudinary.com/practicaldev/image/fetch/s--0HNMzWd3--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://miro.medium.com/max/1999/1%2A-_K3MQpxrodwOsOrI4bRLg.gif)
+## npkill Usage
+
+Simply run `npx npkill`
+
+## npkill Switches
+
+```pre
+-c, --bg-color          Change row highlight color.
+                        Options: blue, cyan, magenta, red, white and yellow.
+                        Default is blue.
+
+-d, --directory         Set directory from which to start searching.
+                        By default, starting-point is .
+
+-D, --delete-all        CURRENTLY DISABLED.
+                        Automatically delete all node_modules folders found.
+
+-e, --show-errors       Show error messages if any.
+
+-E, --exclude           Exclude directories from search
+                        (directory list must be inside double quotes "", each
+                        directory separated by "," ) Example: "ignore1, ignore2"
+
+-f, --full              Start searching from the home of the user
+                        (example: "/home/user" in linux).
+
+-gb                     Show folder size in Gigabytes
+
+-h, --help, ?           Show this help page, with all options.
+
+-nu, --no-check-update  Dont check for updates on startup.
+
+-s, --sort              Sort results by: size or path
+
+-t, --target            Set the name of the directory you want to search for
+                        (by default, it's node_modules)
+
+-v, --version           Show version.
+
+```
