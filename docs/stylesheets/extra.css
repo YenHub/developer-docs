@@ -9,6 +9,10 @@ body>div.md-container>footer>div>div>div:nth-child(1) {
     padding-top: 1rem;
 }
 
+.md-grid {
+    max-width: 69rem;
+}
+
 /* Table 100% Width Fix */
 .md-typeset__table {
    min-width: 100%;
