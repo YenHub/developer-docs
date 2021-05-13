@@ -7,6 +7,7 @@ Given the fact MKDocs supports HTML, nothing prevents you adding the assets requ
 ```pre
 - MKDocs
     - docs
+        - swagger-doc.md
     - js
         - swagger-ui-bundle.js
         - swagger-ui-standalone-preset.js
@@ -16,7 +17,7 @@ Given the fact MKDocs supports HTML, nothing prevents you adding the assets requ
 
 The assets ca be obtained from the latest [Swagger UI dist](https://github.com/swagger-api/swagger-ui/tree/master/dist) 😉
 
-Then you can simply use this in your md file to render the docs, and of course configure Swagger UI as you see fit 😃
+Then you can simply use this in your swagger-doc.md file to render the docs, and of course configure Swagger UI as you see fit 😃
 
 ## Example MD Content
 
