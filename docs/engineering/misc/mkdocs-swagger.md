@@ -4,9 +4,9 @@ Given the fact MKDocs supports HTML, nothing prevents you adding the assets requ
 
 ```pre
 - MKDocs
-- docs
-- js
-- stylesheets
+    - docs
+    - js
+    - stylesheets
 ```
 
 Then you can simply do use this in your md file to render the docs, and of course configure Swagger UI as you see fit 😃
