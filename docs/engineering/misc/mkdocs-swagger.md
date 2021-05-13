@@ -15,7 +15,7 @@ Given the fact MKDocs supports HTML, nothing prevents you adding the assets requ
         - swagger-ui.css
 ```
 
-The assets ca be obtained from the latest [Swagger UI dist](https://github.com/swagger-api/swagger-ui/tree/master/dist) 😉
+The assets can be obtained from the latest [Swagger UI dist](https://github.com/swagger-api/swagger-ui/tree/master/dist) 😉
 
 Then you can simply use this in your swagger-doc.md file to render the docs, and of course configure Swagger UI as you see fit 😃
 
