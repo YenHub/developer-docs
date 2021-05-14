@@ -57,6 +57,7 @@ nav:
           - "Git QuickStart Cheat Guide": "engineering/git/git-quickstart.md"
           - "Fixing Mistakes": "engineering/git/undo-mistakes.md"
           - "Migrating a Repo": "engineering/git/migrate.md"
+          - "Avoiding merge-commits": "engineering/git/no-merge-commit.md"
           - "Rebase -vs- Merge": "engineering/git/rebase-merge.md"
           - "Git Friend Finder!": "engineering/git/friend-finder.md"
       - Misc:
