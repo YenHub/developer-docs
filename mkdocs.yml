@@ -79,6 +79,7 @@ nav:
 
       - Networking:
           - "Analysing nginx logs": "devops/networking/go-access.md"
+          - "NGROK: Expose your local": "devops/networking/ngrok.md"
 
       - "Databases":
           - MySQL:
