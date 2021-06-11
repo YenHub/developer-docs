@@ -36,3 +36,5 @@ You should be able to simply open your report.html by navigating the browser to 
 GoAccess features its own Web Socket server and that's how it pushes the latest data to the browser.
 
 If you don't run a Web Server to host your report.html, you can simply open the output file through your browser (Ctrl+o).
+
+![GoAccess Web Demo](../../img/GoAccessWeb.png){: .center}
