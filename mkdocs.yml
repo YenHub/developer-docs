@@ -77,6 +77,9 @@ nav:
           - "TomCat QuickStart": "devops/linux-tips/tomcat.md"
           - "Ubuntu Welcome Banner": "devops/linux-tips/welcome-banner.md"
 
+      - Networking:
+          - "Analysing nginx logs": "devops/networking/go-access.md"
+
       - "Databases":
           - MySQL:
               - "MySQL Snippets": "devops/databases/mysql-tips.md"
