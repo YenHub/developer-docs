@@ -67,6 +67,7 @@ nav:
           - "MKDocs: Swagger": "engineering/misc/mkdocs-swagger.md"
           - "Escaping 301s Gone Wrong": "engineering/misc/301-hell.md"
           - "Generating SHA Checksums": "engineering/misc/generate-sha.md"
+          - "CLI Spell Checker": "engineering/misc/cli-spellcheck.md"
 
   - DevOps:
       - "Linux Tips":
