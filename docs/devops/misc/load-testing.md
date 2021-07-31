@@ -6,7 +6,7 @@ Credit: [Load Test NPM](https://www.npmjs.com/package/loadtest)
 
 ```bash
 # Install loadtest
-sudo npm install -g loadtest
+npm install -g loadtest
 
 # Run 10 concurrent connections & 200 requests per second
 loadtest -c 10 --rps 200 http://local.express-training.com/catalog/books
