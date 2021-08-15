@@ -12,6 +12,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 ## Commands
 
 * `pip install mkdocs` - Install MkDocs (Requires Python)
+* `pip install mkdocs-material` - Install Material theme for MkDocs
 * `mkdocs new [dir-name]` - Create a new project.
 * `mkdocs serve` - Start the live-reloading docs server.
 * `mkdocs build` - Build the documentation site.
