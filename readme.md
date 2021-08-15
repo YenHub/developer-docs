@@ -9,6 +9,17 @@ This project has been built using the exceptional MkDocs project.
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
+## QuickStart
+
+```bash
+# Requires Python; from this directory:
+pip install mkdocs
+pip install mkdocs-material
+mkdocs serve
+```
+
+The docs will be served locally on http://localhost:8000
+
 ## Commands
 
 * `pip install mkdocs` - Install MkDocs (Requires Python)
