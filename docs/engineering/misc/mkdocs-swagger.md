@@ -1,11 +1,11 @@
-# Integrating swagger with MKDocs
+# Integrating swagger with MkDocs
 
 ## Usage
 
-Given the fact MKDocs supports HTML, nothing prevents you adding the assets required to your MKDocs folder like so:-
+Given the fact MkDocs supports HTML, nothing prevents you adding the assets required to your MkDocs folder like so:-
 
 ```pre
-- MKDocs
+- MkDocs
     - docs
         - swagger-doc.md
     - js

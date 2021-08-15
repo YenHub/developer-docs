@@ -1,17 +1,17 @@
-# Developer Docs using MKDocs
+# Developer Docs using MkDocs
 
 ![Author] ![Repo Size] ![Last Commit] ![Site Status] ![Open Issues] ![Beer Money]
 [![🚀 Deploy Docs on push](https://github.com/YenHub/developer-docs/actions/workflows/pushtoftp.yaml/badge.svg)](https://github.com/YenHub/developer-docs/actions/workflows/pushtoftp.yaml)
 
 This is the public repository for [Developer Docs](HTTPS://developer.quickdash.co.uk)
 
-This project has been built using the exceptional MKDocs project.
+This project has been built using the exceptional MkDocs project.
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Commands
 
-* `pip install mkdocs` - Install MKDocs (Requires Python)
+* `pip install mkdocs` - Install MkDocs (Requires Python)
 * `mkdocs new [dir-name]` - Create a new project.
 * `mkdocs serve` - Start the live-reloading docs server.
 * `mkdocs build` - Build the documentation site.
