@@ -44,6 +44,7 @@ nav:
               - "Debounce": "engineering/javascript/snippets/debounce.md"
           - React:
               - "React DevTools": "engineering/javascript/react/react-devtools.md"
+              - "React setTimeout": "engineering/javascript/react/react-class-timeout.md"
           - NPM:
               - "NVM QuickStart": "engineering/javascript/npm/nvm.md"
               - "NPM Tips & Snippets": "engineering/javascript/npm/npm-tips.md"
