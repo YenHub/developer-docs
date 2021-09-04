@@ -27,19 +27,19 @@ To resolve this issue, you will need to reserve the ports surrounding the ones y
 1. Uninstall Docker
 2. Disable Hyper-V (Will Reboot)
 
-    ```
+    ```bash
     BCDEDIT /Set {current} hypervisorlaunchtype off
     ```
 
 3. Remove the Hyper-V feature from windows (Will Reboot)
 
-    ```
+    ```bash
     dism.exe /Online /Disable-Feature:Microsoft-Hyper-V
     ```
 
 4. Run the batchfile below as an administrator:
 
-    ```
+    ```bash
     dism /online /get-features | find /i "Microsoft-Hyper-V" && (
         start /wait "" netsh int ipv4 set dynamicport tcp start=20000 num=16384
         start /wait "" netsh int ipv4 set dynamicport udp start=20000 num=16384
@@ -53,7 +53,7 @@ To resolve this issue, you will need to reserve the ports surrounding the ones y
 
 5. Re-install Hyper V (Will reboot)
 
-    ```
+    ```bash
     dism.exe /Online /Enable-Feature:Microsoft-Hyper-V /All
     ```
 
@@ -79,19 +79,19 @@ The commands below should be run via PowerShell:
 
 2. Enable WSL:
 
-    ```
+    ```bash
     Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
     ```
 
 3. Enable VM Platform:
 
-    ```
+    ```bash
     Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
     ```
 
 4. Check current version for your distro
 
-    ```
+    ```bash
     wsl -l -v
     ```
 
@@ -99,13 +99,13 @@ The commands below should be run via PowerShell:
 
 6. Set the distro to use WSL2:
 
-    ```
+    ```bash
     wsl --set-version DistroName 2
     ```
 
 7. Ensure WSL2 is the default kernel:
 
-    ```
+    ```bash
     wsl --set-default-version 2
     ```
 
