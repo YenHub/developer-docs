@@ -69,6 +69,7 @@ nav:
           - "Escaping 301s Gone Wrong": "engineering/misc/301-hell.md"
           - "Generating SHA Checksums": "engineering/misc/generate-sha.md"
           - "CLI Spell Checker": "engineering/misc/cli-spellcheck.md"
+          - "MarkDown Tips": "engineering/misc/markdown-tips.md"
 
   - DevOps:
       - "Linux Tips":
