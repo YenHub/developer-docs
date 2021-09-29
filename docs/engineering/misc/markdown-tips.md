@@ -8,4 +8,4 @@
 
 **Result**
 
-<p align="center"><img src="../../img/hotdog.jpeg" width="50%"><p>
+<p align="center"><img src="../../../img/hotdog.jpeg" width="50%"><p>
