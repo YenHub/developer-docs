@@ -14,7 +14,7 @@ Or even...
 
 # Problem
 
-When attempting to run AppStore, or other solutions that use high development port ranges, alongside Hyper-V being enabled, IIS will complain that something is already using port 50309.
+When attempting to run solutions that use high development port ranges, alongside Hyper-V being enabled, IIS will complain that something is already using port 50309.
 
 # Cause
 
@@ -67,7 +67,7 @@ To resolve this issue, you will need to reserve the ports surrounding the ones y
 
 Now, Hyper-V should respect your range of exclusions, working around them when creating it's dynamic port exclusions.
 
-You may now try to run your solution with AppStore again.
+You may now try to run your solution with a high port number again.
 
 ### Alternative Fix (WSL2 For Docker)
 
