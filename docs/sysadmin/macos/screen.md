@@ -1,25 +1,60 @@
 # Using the screen command
 
-## Start all; current window
+## Install screen
 
-`ngrok start --all`
+```bash
+sudo apt update
+sudo apt-get install screen
+```
 
-## Start all; current window
+## Enter a screen session
 
-`screen -dmS ngrok ngrok start --all`
+```bash
+screen
+```
 
-## Re-attach to the screen
+## Detach from a screen session
 
-`screen -r`
+<kbd>CTRL</kbd> + <kbd>A</kbd> >> <kbd>D</kbd>
+
+## Re-attach to the screen session
+
+```bash
+screen -r
+```
 
 ## List screen session IDs
 
-`screen -ls`
+```bash
+# Creating a named session will give accessibility via id or name
+screen -S MyNamedSession
+
+# List the sessions open
+screen -ls
+# There is a screen on:
+# 	19624.MyNamedSession	(01/01/21 01:00:00)	(Detached)
+```
 
 ## Re-attach by ID
 
-`screen -r 10835`
+```bash
+screen -r 19624
+```
 
-## Detach from screen
+## Example: Create a named session & reconnect to it
 
-<kbd>CTRL</kbd> + <kbd>A</kbd> >> <kbd>D</kbd>
+```bash
+# Enter a named session
+screen -S MyNamedSession
+
+# Now detach from the session
+
+# Now you can re-attach using the name specified
+screen -r MyNamedSession
+```
+
+## Example: Running a background process as a daemon
+
+```bash
+screen -dmS ngrok ngrok start --all
+```

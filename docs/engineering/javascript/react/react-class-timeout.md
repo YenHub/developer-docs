@@ -7,11 +7,11 @@ class TimeoutWrapper extends Component {
 
     // Initialise the timeout state
     this.state = {
-      timeout: null
+      timeout: null,
     };
   }
 
-  userTimeout() {
+  useTimeout() {
     const { timeout } = this.state;
     // Clear any previous timeouts
     clearTimeout(timeout);
@@ -19,7 +19,7 @@ class TimeoutWrapper extends Component {
     this.setState({
       timeout: setTimeout(() => {
         // Do some fun timeout stuff here :)
-      }, 1000)
+      }, 1000),
     });
   }
 }
