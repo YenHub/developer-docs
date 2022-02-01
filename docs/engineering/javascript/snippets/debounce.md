@@ -14,29 +14,35 @@ Declare your own function, passing it through the debounce, and provide a delay 
 
 For example, to log to the console at most once per second whilst the window is resized, the following could be implemented:
 
-```
-function debounce(func, wait, immediate) {
-    var timeout;
-    return function() {
-        var context = this, args = arguments;
-        var later = function() {
-            timeout = null;
-            if (!immediate) func.apply(context, args);
-        };
-        var callNow = immediate && !timeout;
-        clearTimeout(timeout);
-        timeout = setTimeout(later, wait);
-        if (callNow) func.apply(context, args);
-    };
-};
+```typescript
+export const debounce = <T extends Function>(
+  callBack: T,
+  wait: number,
+  immediate: boolean,
+) => {
+  let timeout: any
 
-var handleResize = debounce(function() {
-    console.log(`
+  return (...params: any) => {
+    const context = this,
+      args = params
+    const later = function () {
+      timeout = null
+      if (!immediate) callBack.apply(context, args)
+    }
+    const callNow = immediate && !timeout
+    clearTimeout(timeout)
+    timeout = setTimeout(later, wait)
+    if (callNow) callBack.apply(context, args)
+  }
+}
+
+var handleResize = debounce(function () {
+  console.log(`
 
         Notice how this will only log to the console at most once a second during your events firing?
 
     `)
-}, 1000);
+}, 1000)
 
-$(window).on("resize", handleResize);
+$(window).on('resize', handleResize)
 ```
