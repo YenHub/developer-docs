@@ -13,6 +13,14 @@ cat some-apache.conf | sudo tee --append /etc/apache2/sites-available/target.con
 sudo sh -c "echo $sshPubKey >> /home/$newuser/.ssh/authorized_keys"
 ```
 
+## Output redirection using tee
+
+Helpful when not working with sudo, think outputting mocha output to a file
+
+```bash
+yarn test:js 2>&1 | tee test-diff.txt
+```
+
 ## Get Folder/Directory Size
 
 ```bash
@@ -253,6 +261,7 @@ sudo apt-get autoclean
 ```
 
 ## Renaming files replacing character(s) (Perl)
+
 ```bash
 # Replace "#U00a9" with "safe"
 rename 's/#U00a9/safe/g' *
