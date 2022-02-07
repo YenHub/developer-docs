@@ -1,5 +1,15 @@
 # General Linux Tips
 
+## Convert files from CRLF TO LF (Windows)
+
+From a bash/WSL terminal within the folder you want to recursively modify the files:
+
+```bash
+sudo apt-get update
+sudo apt-get install dos2unix
+find . -type f -exec dos2unix {} \;
+```
+
 ## Output Redirection Using sudo tee
 
 A great use case for this, is combining Apache Config files
