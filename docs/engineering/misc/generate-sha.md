@@ -6,6 +6,6 @@ It offers a switch `-hashfile` that allows you to generate the hash string using
 
 Running the following command generates an SHA-512 checksum for the JavaScript file, "someJavaScriptTool.js"
 
-```
+```bash
 certutil -hashfile ./someJavaScriptTool.js SHA512
 ```

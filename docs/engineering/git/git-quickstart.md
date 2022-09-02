@@ -376,7 +376,7 @@ git merge --no-commit --no-ff stash@{n}
 # This command will create a stash with ALL of your
 # changes (staged and unstaged), but will leave the
 # staged changes in your working directory (still in state staged).
-`git stash --keep-index`  
+`git stash --keep-index`
 # Run git stash push -m "good stash"
 # Now your "good stash" has ONLY staged files.
 ```
@@ -494,12 +494,14 @@ Then rebase
 
 It will open your editor where you can go off to edit the commit message
 
-```
+```bash
 git commit --amend
 git rebase --continue
 ```
+
 OR the author
-```
+
+```bash
 git commit --amend --author="YenHub <example@domain.com>" --no-edit
 git rebase --continue
 ```
@@ -513,4 +515,3 @@ git remote prune origin
 ### But Why??
 
 > What this will do is remove references to remote branches in the folder .git/refs/remotes/origin. So this will not affect your local branches and it will not change anything remote, but it will update the local references you have to remote branches. It seems in some cases these references can contain data Git cannot handle correctly.
-
