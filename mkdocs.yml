@@ -38,6 +38,8 @@ nav:
 
   - Software Engineering:
       - JavaScript:
+          - TypeScript:
+              - TypeScript Omit Function: engineering/javascript/ts/typescript-omit-function.md
           - Snippets & Tools:
               - SVG Word Wrap Hack: engineering/javascript/snippets/svg-wrap-hack.md
               - Currying: engineering/javascript/snippets/currying.md
