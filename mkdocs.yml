@@ -60,6 +60,8 @@ nav:
               - Default .eslintrc: engineering/javascript/node/eslintrc.md
               - Colourful Console Logging: engineering/javascript/node/colour-logging.md
               - NPKill - node_modules: engineering/javascript/node/node-cleanup.md
+      - Ruby:
+          - Handling JSON: engineering/ruby/handling-json.md
       - Git:
           - .gitignore Template: engineering/git/gitignore.md
           - Git QuickStart Cheat Guide: engineering/git/git-quickstart.md
