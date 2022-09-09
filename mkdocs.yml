@@ -49,6 +49,7 @@ nav:
               - SVG Word Wrap Hack: engineering/javascript/snippets/svg-wrap-hack.md
               - Currying: engineering/javascript/snippets/currying.md
               - Debounce: engineering/javascript/snippets/debounce.md
+              - ES2020 matchAll: engineering/javascript/snippets/match-all.md
           - React:
               - React DevTools: engineering/javascript/react/react-devtools.md
               - React setTimeout: engineering/javascript/react/react-class-timeout.md
