@@ -15,7 +15,10 @@ const getUniqueMatches = (str, regex) => {
   const array = [...str.matchAll(regex)]
   const finalSet = new Set()
   array.forEach(it => finalSet.add(it[1]))
-  console.log([...finalSet].join('\n'))
+  const matchesAsArray = [...finalSet]
+  console.log(matchesAsArray.join('\n'))
+  console.log(`Found ${finalSet.size} matches`)
+  return matchesAsArray
 }
 
 getUniqueMatches(str, /etc(\/[a-z\-]+\/[a-z\-]+\/[a-z\-]+\/)/g)
