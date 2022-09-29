@@ -303,6 +303,15 @@ BRANCH='* ian/feature/something-neat'
 > ian/feature/something-neat
 ```
 
+#### Bonus Points
+
+Add it to your bashrc/zshrc for easy access
+
+```bash
+alias git:merge-master="BRANCH=$(git branch | grep '* ' | sed -e 's/* //');git checkout master && git pull -p --all && git checkout $BRANCH && git merge master"
+source ~/.zshrc
+```
+
 ## Merging Strategy
 
 ```bash
