@@ -269,6 +269,40 @@ git merge master
 git push origin <feature-branch>
 ```
 
+### Cheeky one liner...
+
+```bash
+BRANCH=$(git branch | grep '*' | sed -e 's/* //')
+git checkout master \
+   && git pull -p --all \
+   && git checkout $BRANCH \
+   && git merge master
+```
+
+Explainer:
+
+We set the variable `BRANCH` by piping the output of `git branch` into `grep` to match our branch name
+
+```bash
+git branch
+> master
+> * ian/feature/something-neat
+> ian/feature/test-feature
+> ian/chore/fix-broken-strings
+
+git branch | grep '*'
+> * ian/feature/something-neat
+```
+
+We then pipe the resulting branch into `sed` and use string substitution to replace '\* ' with '':
+
+```bash
+# sed -e 's/PATTERN/SUBSTITUTION/'
+BRANCH='* ian/feature/something-neat'
+* echo $BRANCH | grep '*' | sed -e 's/* //'
+> ian/feature/something-neat
+```
+
 ## Merging Strategy
 
 ```bash
