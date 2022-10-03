@@ -18,6 +18,12 @@
     .pluck(:id)
 ```
 
+### Tip
+
+> The -> operator returns the original JSON type (which might be an object), whereas ->> returns text
+
+Taken from [this article](https://guides.rubyonrails.org/active_record_postgresql.html#:~:text=The%20%2D%3E%20operator%20returns%20the%20original%20JSON)
+
 ## Querying via PostgreSQL
 
 **1. Select items by the value of a first level attribute (#1 way)**
