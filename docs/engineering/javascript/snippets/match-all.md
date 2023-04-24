@@ -28,10 +28,15 @@ getUniqueMatches(str, /etc((\/[a-z\-]+){3})/g)
 
 // /common/lib/themes
 
+// Match any depth
+getUniqueMatches(str, /etc\/(([a-z\-]+\/)*)/g)
+
 // Or match between a depth of 2 & 3
 getUniqueMatches(str, /etc((\/[a-z\-]+){2,3})/g)
 /**
  * /common/lib
  * /common/lib/themes
  */
+
+getUniqueMatches(str, /etc\/(([a-z\-]+\/)+)[a-z\-]+\.[a-z]+/g)
 ```
