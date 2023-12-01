@@ -126,3 +126,4 @@ nav:
       - MacOS:
           - Terminal: sysadmin/macos/terminal.md
           - Screen: sysadmin/macos/screen.md
+          - Screen: sysadmin/macos/xc-run
