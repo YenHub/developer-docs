@@ -17,7 +17,7 @@ heavy-script.sh > output
 
 ### Output
 
-```bash
+```txt
 Elapsed: 0:00.81
 User: 0.80
 System: 0.00

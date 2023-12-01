@@ -91,6 +91,7 @@ nav:
           - TomCat QuickStart: devops/linux-tips/tomcat.md
           - Ubuntu Welcome Banner: devops/linux-tips/welcome-banner.md
           - Bash Performance Testing: devops/linux-tips/performance-testing-commands.md
+          - Recursively Delete Directories: devops/linux-tips/recursive-delete.md
 
       - Networking:
           - Analysing nginx logs: devops/networking/go-access.md
