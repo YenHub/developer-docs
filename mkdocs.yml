@@ -90,6 +90,7 @@ nav:
           - Let's Encrypt: devops/linux-tips/lets-encrypt.md
           - TomCat QuickStart: devops/linux-tips/tomcat.md
           - Ubuntu Welcome Banner: devops/linux-tips/welcome-banner.md
+          - Bash Performance Testing: devops/linux-tips/performance-testing-commands.md
 
       - Networking:
           - Analysing nginx logs: devops/networking/go-access.md
