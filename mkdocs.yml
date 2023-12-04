@@ -53,6 +53,7 @@ nav:
           - React:
               - React DevTools: engineering/javascript/react/react-devtools.md
               - React setTimeout: engineering/javascript/react/react-class-timeout.md
+              - ScrollTopWrapper: engineering/javascript/react/scroll-top-HOC.md
           - NPM:
               - NVM QuickStart: engineering/javascript/npm/nvm.md
               - NPM Tips & Snippets: engineering/javascript/npm/npm-tips.md
