@@ -43,3 +43,34 @@ Use this flag to run across more available cores.
 # You get a worker per core, so this uses 8 cores:
 npx jest --max-workers=8
 ```
+
+## Mocking a module
+
+```typescript
+// @package/some-utils
+export const someMethod = () => true
+
+export const sleep = (delay: number): Promise<void> =>
+  await new Promise(resolve => setTimeout(resolve, backoff))
+```
+
+```typescript
+// setupTests.ts
+import { sleep } from '@package/some-utils'
+
+jest.mock('@package/some-utils', () => ({
+  ...jest.requireActual('@package/some-utils'),
+  sleep: jest.fn().mockReturnValue(Promise.resolve()),
+}))
+
+const mockSleep = sleep as jest.MockedFunction<typeof sleep>
+
+beforeEach(() => {
+  mockSleep.mockResolvedValue(Promise.resolve())
+})
+
+afterEach(() => {
+  jest.resetAllMocks()
+  jest.restoreAllMocks()
+})
+```
