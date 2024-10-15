@@ -68,6 +68,7 @@ nav:
               - NPKill - node_modules: engineering/javascript/node/node-cleanup.md
           - Jest:
               - Helpful Tips: engineering/javascript/jest/helpful-tips.md
+              - Stubbing Chained Methods: engineering/javascript/test-double/stubbing-chained-methods.md
       - Ruby:
           - Handling JSON: engineering/ruby/handling-json.md
       - Git:
