@@ -42,9 +42,9 @@ export const makeTransparentHex = (
 ): string => {
   /*
    * Valid shorthand: #000
-   * Valid longhand: #00000
+   * Valid longhand: #000000
    */
-  if (hexValue.length !== 4 || hexValue.length > 6) {
+  if (hexValue.length !== 4 && hexValue.length !== 7) {
     throw new InvalidHexError('Please provide a valid hex string')
   }
 
