@@ -1,0 +1,35 @@
+/* Theme Customisations */
+body>div.md-container>footer>div>div>div:nth-child(1) {
+    visibility: hidden;
+}
+.md-footer-copyright, .md-footer-social {
+    padding: 0 0;
+}
+.md-footer__link {
+    padding-top: 1rem;
+}
+
+.md-grid {
+    max-width: 69rem;
+}
+
+/* Table 100% Width Fix */
+.md-typeset__table {
+   min-width: 100%;
+}
+.md-typeset table:not([class]) {
+    display: table;
+}
+
+
+/* Port Fix Screenshot */
+.port {
+    width: 450px;
+    height: auto;
+}
+
+/* Center Util */
+.center {
+    display: block;
+    margin: 0 auto;
+}
